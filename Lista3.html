@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 3 de Exercícios</title>
+    <link rel="stylesheet" href="Lista3.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista 3 - Exercícios</h1>
+        <p class="subtitle">Selecione um exercício para executar:</p>
+
+        <div class="controls">
+            <button class="control-btn" id="themeToggle">🌓 Alternar Tema</button>
+        </div>
+
+        <div id="status" class="status" style="display: none;">
+            Pronto para executar exercícios!
+        </div>
+
+        <div class="buttons-container">
+            <button class="btn" onclick="executarExercicio(1)">
+                <span class="btn-number">Ex1</span>
+                <span class="btn-text">Contador de Tempo</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(2)">
+                <span class="btn-number">Ex2</span>
+                <span class="btn-text">Tabuada</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(3)">
+                <span class="btn-number">Ex3</span>
+                <span class="btn-text">Números Ímpares</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(4)">
+                <span class="btn-number">Ex4</span>
+                <span class="btn-text">Jogo de Adivinhação</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(5)">
+                <span class="btn-number">Ex5</span>
+                <span class="btn-text">Sistema Login Avançado</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(6)">
+                <span class="btn-number">Ex6</span>
+                <span class="btn-text">Pirâmide de Estrelas</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(7)">
+                <span class="btn-number">Ex7</span>
+                <span class="btn-text">Retângulo de Estrelas</span>
+            </button>
+        </div>
+
+        <div id="console-output" class="console-output"></div>
+
+        <div class="info">
+            <p>💡 Clique em qualquer botão para executar o exercício correspondente</p>
+            <p>🖥️ Resultados visuais aparecerão no console abaixo quando aplicável</p>
+        </div>
+    </div>
+
+    <script src="Lista3.js"></script>
+</body>
+
+</html>
